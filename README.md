@@ -7,8 +7,8 @@ As FLTK is written in C++; V must utilize a C wrapper for ease. The work *cfltk*
 
 To use vfltk; you must build from the above project:
 
-- libcfltk.a, libfltk.a [Required]
-- libfltk_forms.a, libfltk_gl.a, libfltk_images.a [Optional] 
+- libcfltk.a, libfltk.a [**Required**]
+- libfltk_forms.a, libfltk_gl.a, libfltk_images.a [Optional, depending on how you use FLTK] 
 
 # Author Instructions on building cfltk
 
@@ -22,9 +22,8 @@ $ make
 ```
 After building:
 
-- libcfltk.a can be found in cfltk/bin
-- associated headers in cfltk/include
-- libfltk.a, libfltk_forms.a, libfltk_gl.a, libfltk_images.a are in cfltk/bin/fltk/lib
+- **libcfltk.a** can be found in cfltk/bin --> associated headers in cfltk/include
+- **libfltk.a, libfltk_forms.a, libfltk_gl.a, libfltk_images.a** are in cfltk/bin/fltk/lib
 
 # FLTK in V
 
