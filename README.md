@@ -20,6 +20,7 @@ $ cmake -B bin -S .
 $ cd bin
 $ make
 ```
+After building:
 
 - libcfltk.a can be found in cfltk/bin
 - associated headers in cfltk/include
@@ -27,7 +28,7 @@ $ make
 
 # FLTK in V
 
-At minimum you will need these libraries:
+To use FLTK in V, at minimum you will need these libraries:
 - pthread 
 - X11 
 - Xext
@@ -59,7 +60,7 @@ $ sudo apt-get install libx11-dev libxext-dev libxft-dev libxinerama-dev libxcur
 
 At present, this is just an example with Window widget, Button widget, and a callback.  
 
-In due time a wrapper module will be implemented.
+**In due time a wrapper module will be implemented.**
 
 # Required C-to-V Flags
 
